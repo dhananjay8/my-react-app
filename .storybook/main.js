@@ -15,5 +15,12 @@ const config = {
     autodocs: "tag",
   },
   staticDirs: ["../public"],
+  refs: {
+    'my-ng-app': {
+      title: 'My Angular Application',
+      url: 'https://dhananjay8.github.io/my-ng-app/',
+      expanded: false, // Optional, true by default
+    },
+  },
 };
 export default config;
